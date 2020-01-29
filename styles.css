@@ -1,0 +1,154 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+hr{
+	border: 2px solid red;
+}
+
+.top-nav-bar{
+	height:62px;
+    width: 100%;
+    top:0;
+    margin-left: 20px;
+    position:fixed;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.logo 
+{
+  height: 40px ; 
+  margin: 5px 10px; 
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid pink !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    background: pink !important;
+    border: 1px solid pink !important;
+    margin: 8.5px 10px 3px 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    cursor: pointer;
+}
+.search-box
+{
+    display: inline-flex;
+    width: 60%　；
+}
+.fa-search
+{
+    color: #fff;
+}
+.menu-bar{
+	width: 40%;
+    height: 57px;
+    float: right;
+    margin-right: 20px;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	float: right;
+}
+.menu-bar ul li
+{
+    list-style-type: none;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: none;
+    cursor: pointer;
+}
+.menu-bar ul li a
+{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+}
+.menu-bar ul li a:hover{
+	/*background-color: green;*/
+	border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 22px;
+}
+.a{
+	height: 560px;
+	width: 100%;
+}
+ .bg-custom
+ {
+    background: rgba(0,0,0,0.50);
+}
+.inbanner 
+{
+    position: absolute;
+    margin-top:-488px;
+    margin-left: 45px;
+    font-size: 20px;
+    background: transparent;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 8.99%;
+}
+.btn1 
+{
+    position: absolute;
+    margin-top:-338px;
+    margin-left: 45px;
+    font-size: 20px;
+    background: transparent;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 8.99%;
+}
+.btn2 
+{
+    position: absolute;
+    margin-top:-338px;
+    margin-left: 212px;
+    font-size: 20px;
+    background: transparent;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 8.99%;
+}
+.btn3
+{
+    position: absolute;
+    margin-top:-258px;
+    margin-left: 101px;
+    font-size: 20px;
+    background: transparent;
+    padding: 15px 35px;
+    color: white;
+    border-radius: 8.99%;
+}
+.btn1:hover
+{
+    background:  linear-gradient(to left,#fa8611 ,#46c2ff);
+    border:transparent;
+}
+.btn2:hover
+{
+    background:  linear-gradient(to left,#fa8611 ,#46c2ff);
+    border:transparent;
+}
+.btn3:hover
+{
+    background:  linear-gradient(to left,#fa8611 ,#46c2ff);
+    border:transparent;
+} 
