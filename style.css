@@ -6,6 +6,7 @@
 body
 {
     background: linear-gradient(to top,#8563fc ,#66667e);
+    width: 100%;
 }
 .top-nav-bar{
 	height:62px;
