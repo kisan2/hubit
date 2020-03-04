@@ -17,6 +17,7 @@
 }
 .bg.scrolled{
   background-color: orange !important;
+
  }
     </style>
     <style type="text/css">
@@ -96,22 +97,57 @@
             </div>
         </form>
       </section>
-            <nav class="top-nav-bar bg">
+
+
+<nav class="navbar bg navbar-expand-md fixed-top navbar-dark" style="width: 100%;">
+  <a href="#"><img src="image\hub.png" class="logo"></a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <div  class="col-xl-6 col-lg-4 col-md-2"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold" style="font-size: 22px;" href="#">LIBRARY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold" style="font-size: 22px;" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold" style="font-size: 22px;" href="#">EXAMINATION</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold" style="font-size: 22px;" href="#">PRICING</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light font-weight-bold" style="font-size: 22px;" href="#">CONTACT</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+               <!--  <nav class="top-nav-bar fixed-top bg">
                  <a href="#"><img src="image\hub.png" class="logo"></a>
                  <div class="menu-bar">
                 <ul>
-                    <li><a href="#">LIBRARY</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">EXAMINATION</a></li>
-                    <li><a href="#">PRICING</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pootfolio</a></li>
+                 <div class="dropdown">
+                   <li class="dropbtn"> <a href="#">Our services</a> <i class="fa fa-caret-down"></i>
+                   </li>
+                   <div class="dropdown-content">
+                      <a href="#">It Solution</a>
+                      <a href="#">Training </a>
+                   </div>
+                 </div>
                 </ul>
         </div>
-        </nav>
+        </nav> -->
+
         <div align="center" style="margin-left: -30%;">
-        <button class="btn1">Training</button>
-        <button class="btn2">Solution</button>
-        <button class="btn3">Submit Form</button>
+        <a href="training.html" style="text-decoration: none;" class="btn1">Training</a>
+        <a href="solution.html" style="text-decoration: none;" class="btn2">Solution</a>
+        <a href="subform.html" style="text-decoration: none;" class="btn3">Submit Form</a>
         </div> 
         <div class="inbanner" style=" margin-left: 32%;"><h1>Hub It a Glance</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat pretium venenatis. Morbi rhoncus nisi lorem, ac volutpat urna aliquam ut. Praesent fringilla tortor hendrerit, imperdiet tellus non, vehicula ante. Vestibulum tellus lectus, consectetur id eleifend ac, tincidunt</p>
@@ -138,16 +174,21 @@
   </div>
  </div>
 </div>
-  <div class="container"  id="again" style="margin-top: -34%; float: float; margin-left: -8%;">
+
+
+
+
+
+
+  <div class="container"  id="again" style="margin-top: -34%; float: float; margin-left: -8%; opacity: 99%;">
     <div class="inh3 ">
-     <div class="content">POOTFOLIO  <a href="#!" style="float: right;margin-right: 10px;margin-top:20px; font-size: 15px;"><u>view all>></u></a>
+     <div class="content">POOTFOLIO  <a href="pootfolio.html" style="float: right;margin-right: 10px;margin-top:20px; font-size: 15px;"><u>view all>></u></a>
       <div class="list3">
-        <div class="slide hi-slide" style="font-family: 'Roboto Condensed', sans-serif; overflow-x: hidden; display: flex;">
+        <div class="slide hi-slide" style="font-family: 'Roboto Condensed', sans-serif; overflow-x: hidden; display: flex; position:relative;">
       <div class="hi-prev"></div>
       <div class="hi-next"></div>
       <ul>
-        <li>
-        <img src="nan/arjun.jpg"  alt="Img 1" /><h1>Arjun</h1></li>
+        <li><img src="nan/arjun.jpg"  alt="Img 1" /><h1>Arjun</h1></li>
         <li><img src="nan/ashish.jpg"   alt="Img 2" /><h1>Arjun</h1></li>
         <li><img src="nan/arjun.jpg"  alt="Img 3" /><h1>Arjun</h1></li>
         <li><img src="nan/hari.jpg"  alt="Img 4" /><h1>Arjun</h1></li>
@@ -203,27 +244,15 @@
              <a href="#" style="float: right; color: white;">see more</a>
             </div>
           </div>   
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <!-- our cources -->
+  <!-- our cources -->
+   <section>
+    <div  style="width: 68%; float: left;">
  <div class="container">
   <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
@@ -234,14 +263,14 @@
 
   <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
  <pre>          </pre>
 <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
@@ -250,14 +279,14 @@
 <div class="container" id="again">
   <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
   <pre>                      </pre>
 <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
@@ -266,25 +295,196 @@
 <div class="container" id="last">
   <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
-  <pre>               </pre>
+  <pre>          </pre>
 <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
-  <pre>              </pre>
+  <pre>         </pre>
  <div class="box" id="one" >
   <div class="content">
-    <p style="color: white;text-align: center;">web development</p>
+    <p style="color: white;text-align: center; font-size:16px; padding-top:14px;">web development</p>
 
   </div>
  </div>
 </div>
+</div>
+<div style="padding-top: 15%;">
+  <h1>OUR COURCES </h1>
+  <p style="color: white; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Animi, atque eaque eius esse et harum inventore <br> ipsam nam necessitatibus nemo pariatur provident. <br> Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+</div>
+</section>
+
+          <!-- .........................marg.................... -->
+<div class="container" style="margin-left: 3%;" >
+<div class="bdy">
+  <div></div>
+  <h1>We've partnered with <br> MARG ENTERPRISE</h1>
+  <p style="color: white; font-size: 22px;">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Animi, atque eaque eius esse et harum inventore <br> ipsam nam necessitatibus nemo pariatur provident. <br> Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+   <button class="btnn">All Feature</button>
+</div>
+<div class="bdy1">   
+<div class="container col-lg-12"  id="again">
+            <div class="box list4">
+            <div class="content">
+              <div class="inh4" style="color: white; text-align: center;"><u>marg</u></div>
+              <p style="color: white;text-align: center; font-size: 15px;">POWERFULL</p>
+              <p style="color: white;text-align: center; font-size: 15px;">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+              <a href="#" style="color: white; margin-left: 42%; margin-bottom: 5px; font-size: 15px;">see more >></a>
+            </div>
+          </div>
+          <pre>        </pre>
+          <div class="box list4">
+            <div class="content">
+              <div class="inh4" style="color: white; text-align: center;"><u>marg</u></div>
+              <p style="color: white;text-align: center; font-size: 15px;">POWERFULL</p>
+              <p style="color: white;text-align: center; font-size: 15px;">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+              <a href="#" style="color: white; margin-left: 42%; margin-bottom: 5px; font-size: 15px;">see more >></a>
+            </div>
+          </div>
+      </div>
+
+
+<div class="container col-lg-12"  id="again">
+            <div class="box list4">
+            <div class="content">
+            <div class="inh4" style="color: white; text-align: center;"><u>marg</u></div>
+              <p style="color: white;text-align: center; font-size: 15px;">POWERFULL</p>
+              <p style="color: white;text-align: center; font-size: 15px;">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+              <a href="#" style="color: white; margin-left: 42%; margin-bottom: 5px; font-size: 15px;">see more >></a>
+            </div>
+          </div>
+          <pre>        </pre>
+          <div class="box list4">
+            <div class="content">
+              <div class="inh4" style="color: white; text-align: center;"><u>marg</u></div>
+              <p style="color: white;text-align: center; font-size: 15px;">POWERFULL</p>
+              <p style="color: white;text-align: center; font-size: 15px;">Lorem ipsum dolor sit amet, atque eaque eius esse et harum inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+              <a href="#" style="color: white; margin-left: 42%; margin-bottom: 5px; font-size: 15px;">see more >></a>
+            </div>
+          </div>
+
+  </div>
+ </div>
+</div>
+
+<section class="text-center">
+  <div></div>
+  <h1>Transparent pricing</h1>
+  <p style="color: white;text-align: center; font-size: 15px;">Our plans have everything you need to take your app to the next level. No hidden fees.</p>
+  <div class="mx-auto text-center" style="border: 2px solid #ffff; color: white; width: 20%; padding: 10px;">
+  <a href="#" style="font-size: 18px; color: white; text-decoration: none; padding: 20px 10px 15px 15px;">Yearly</a>    |   <a href="#" style="font-size: 18px;  color: white; text-decoration: none; padding: 20px 10px 15px 15px;">Monthly</a>
+</div>
+<div class="container1">
+  
+ <div class="box1">
+  <div>
+
+  </div>
+
+
+
+
+
+ </div>
+<div class="box1"></div>
+<div class="box1"></div>
+
+
+
+
+
+</div>
+</section>
+<br>
+
+
+<!-- ..............end marg.................... -->
+<!-- ................................our services............ -->
+
+
+<section>
+  <div style="width: 100%; height: 100%; margin-top: 5px;">
+    <h1 style="text-align: center; margin-top: 20px;"> our services</h1>
+
+<div class="container">
+    <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+ <pre>            </pre>
+ <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+  <pre>                </pre>
+ <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+</div>
+
+<div class="container">
+    <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+ <pre>                                      </pre>
+ <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+ 
+</div>
+<div class="container">
+    <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+ <pre>             </pre>
+ <div class="box" id="one" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div></div>
+ 
+ <div class="container">
+    <div class="box" id="one" style="width: 30%;" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div></div>
+ <div class="container">
+    <div class="box" id="one" style="width:20%;" >
+    <div class="content">
+        <p style="color: white;text-align: center;">web development</p>
+
+    </div>
+ </div>
+</div>
+</section>
+ 
+
 <!-- ............................commentbox.................. -->
     <div class="container">
       <textarea class="comment" rows = "4" cols = "50" placeholder="please enter your query" >
@@ -293,7 +493,6 @@
       <button id="btn1" name="submit" value="Send">Send</button>
     </div>  
     </div>
-
 <!-- footer -->
 
 <div class="footer">

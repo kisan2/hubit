@@ -1,0 +1,55 @@
+div {
+    display: block;
+}
+#wrapper {
+    width: 1900px;
+    height:900px;
+}
+
+#first {
+    float:left;
+    width: 40%;
+    height: 100%;
+     justify-content: center;
+  
+}
+
+#second {
+    float:left;
+    width: 20%;
+
+}
+
+#third {
+    float:left;
+    width: 30%;
+    
+
+}
+.container{
+
+   
+    padding: 5px;
+
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+
+}
+
+.box{
+    width: 300px;
+    height:400px;
+    background: #21212E;
+    /*float: left;*/
+    margin: 0px 10px;
+    transform: 1s;
+    border-radius: 0%;
+ }
+
+.box:hover{
+    transform: scale(1.1);
+    background:#21212E;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    z-index: 2;
+}

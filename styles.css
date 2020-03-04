@@ -133,6 +133,7 @@ body
     background: transparent;
     padding: 15px 35px;
     color: white;
+    border:  2px solid white;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
@@ -148,6 +149,23 @@ body
     font-size: 20px;
     padding: 16px 30px;
     cursor: pointer;
+    border:  2px solid white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.btn3 
+{
+    position: absolute;
+    margin-top:-162px;
+    margin-left: 60px;
+    line-height: 1;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 16px 30px;
+    cursor: pointer;
+    border:  2px solid white;
     border-radius: 5px;
     text-align: center;
 
@@ -158,6 +176,11 @@ body
     color: white;
 }
 .btn2:hover
+{
+    background:  linear-gradient(to left,#fa8611 ,#46c2ff);
+    color: white;
+} 
+.btn3:hover
 {
     background:  linear-gradient(to left,#fa8611 ,#46c2ff);
     color: white;

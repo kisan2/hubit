@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+	
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html,
+body {
+  width: 100%
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  display: table-cell;
+  height: 100vh;
+}
+
+#about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#aboutInfo {
+  font-size: 45px;
+  overflow: auto;
+}
+
+#aboutImage {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    flex-direction: column;
+    height: 100%;
+  }
+  #about #aboutImage {
+    max-width: 100%;
+    height: auto;
+  }
+  #about #aboutInfo {
+    max-height: 200px;
+    margin: auto;
+  }
+}
+
+
+
+
+</style>
+
+
+
+	<title></title>
+
+
+
+
+</head>
+<body>
+
+<div class="content" id="about">
+  <div id="aboutImage">
+    <img src="http://via.placeholder.com/350x150">
+  </div>
+  <div id="aboutInfo">
+    <p> A really long text here, multiple lines of sentences </p>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -58,10 +58,10 @@ body
     color: #fff;  
 }
 .menu-bar{
-	width: 80%;
+	width: 100%;
     height: 57px;
     float: right;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 .menu-bar ul
 {
@@ -131,6 +131,7 @@ body
     padding: 15px 35px;
     color: white;
     border-radius: 5px;
+    border:  2px solid white;
     cursor: pointer;
     text-align: center;
 }
@@ -145,6 +146,7 @@ body
     font-size: 20px;
     padding: 16px 30px;
     cursor: pointer;
+    border:  2px solid white;
     border-radius: 5px;
     text-align: center;
 
@@ -160,6 +162,7 @@ body
     font-size: 20px;
     padding: 16px 30px;
     cursor: pointer;
+    border:  2px solid white;
     border-radius: 5px;
     text-align: center;
 
@@ -346,6 +349,64 @@ body
   background:black;
   transform: 1s;
   margin-bottom: 4%;
+}
+
+
+
+/* ...................................marg............................ */
+.list4
+ {
+    background: rgba(0,0,0,0.90) !important;
+    padding: 40px 0px 20px 0px;
+    margin-right: 0px;
+    border-radius: 15px ;
+    width: 40%;
+  }
+.inh4{
+  background-color:#283027;
+  color: white;
+  margin-bottom: 4%;
+  padding: 10px 40px 10px 40px;
+}
+.bdy
+{
+  width: 50%;
+  float: left;
+  margin-top: 20%;
+}
+.bdy1
+{
+  width: 50%;
+  margin-right: -20%;
+  margin-left: 200px;
+}
+.btnn{
+  background:linear-gradient(to left, #fA8611 , #2979ff);
+  border-radius: 2px;
+  font-size: 30px;
+}
+.container1{
+  width: 90%;
+  padding: 5px;
+  display: flex;
+  margin: 100px auto;
+  justify-content: center;
+}
+.box1{
+  width: 450px;
+  height:700px;
+  background: #21212E;
+  /*float: left;*/
+  margin: 0px 10px;
+  transform: 1s;
+  border-radius: 3%;
+}
+.box1:hover{
+  transform: scale(1.1);
+  position: relative;
+  background:#21212E;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  z-index: 1;
 }
       /*.....................MediaQuery.................*/
 
